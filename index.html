@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Mentors Academy</title>
+  </head>
+  <body>
+    <!-- NavBar Start-->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container-fluid mx-lg-5 mx-md-5 mx-sm-5">
+        <a class="navbar-brand" href="#">Mentors Academy</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#fundamentals">What You'll Learn</a>
+            <a class="nav-link" href="#faq">Questions</a>
+            <a class="nav-link" href="#instructors">Instructors</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container my-5">
+      <div
+        class="
+          row
+          p-4
+          pb-0
+          pe-lg-0
+          pt-lg-5
+          align-items-center
+          rounded-3
+          border
+          shadow-lg
+        "
+      >
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">
+            Become a <span class="text-warning">Software Developer</span>
+          </h1>
+          <p class="lead">
+            We focus on teaching our students the fundamentals of the latest and
+            greatest technologies to prepare them for their first dev role
+          </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Enroll Now
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="img/showcase.svg" alt="" width="720" />
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Newsletter Start -->
+    <header class="p-3 bg-dark text-white my-5">
+      <div class="container">
+        <div
+          class="
+            d-flex
+            flex-wrap
+            align-items-center
+            justify-content-center justify-content-lg-start
+          "
+        >
+          <a
+            href="/"
+            class="
+              d-flex
+              align-items-center
+              mb-2 mb-lg-0
+              text-white text-decoration-none
+            "
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+
+          <ul
+            class="
+              nav
+              col-12 col-lg-auto
+              me-lg-auto
+              mb-2
+              justify-content-center
+              mb-md-0
+            "
+          >
+            <li>
+              <a href="#" class="nav-link px-2 text-white display-6"
+                >Sign Up For Our Newsletter!</a
+              >
+            </li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input
+              type="search"
+              class="form-control form-control-dark"
+              placeholder="Enter your email!..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-warning">Submit!</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Newsletter End -->
+
+    <!-- Feature Start -->
+    <div class="container px-4 py-5" id="custom-cards">
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            class="
+              card card-cover
+              h-100
+              overflow-hidden
+              text-white
+              bg-dark
+              rounded-5
+              shadow-lg
+            "
+            style="background-image: url('img/person.jpg')"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-white">
+                In-Person Mentoring sessions!
+              </h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto"></li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill" />
+                  </svg>
+                  <small></small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" />
+                  </svg>
+                  <small>Before COVID-19</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="
+              card card-cover
+              h-100
+              overflow-hidden
+              text-white
+              bg-dark
+              rounded-5
+              shadow-lg
+            "
+            style="background-image: url('img/hybrid.jpg')"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Hybrid Learning Ecosystem
+              </h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto"></li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill" />
+                  </svg>
+                  <small>Abbottabad, Pakistan</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" />
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="
+              card card-cover
+              h-100
+              overflow-hidden
+              text-white
+              bg-dark
+              rounded-5
+              shadow-lg
+            "
+            style="background-image: url('img/virtual.jpg')"
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Virtual / Remote Learning
+              </h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto"></li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill" />
+                  </svg>
+                  <small>California</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" />
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- fundamentals Start -->
+    <div class="container my-5" id="fundamentals">
+      <div
+        class="
+          row
+          p-4
+          pb-0
+          pe-lg-0
+          pt-lg-5
+          align-items-center
+          rounded-3
+          border
+          shadow-lg
+        "
+      >
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">
+            <span class="text-warning">Learn The Fundamentals</span>
+          </h1>
+          <p class="lead">
+            We focus on teaching our students the fundamentals of the latest and
+            greatest technologies to prepare them for their first dev role.
+          </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img
+            class="rounded-lg-3"
+            src="img/fundamentals.svg"
+            alt=""
+            width="720"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- fundamentals End -->
+
+    <!-- Advance Start -->
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Learn Advanced</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">
+            React. js is an open-source JavaScript library that is used for
+            building user interfaces specifically for single-page applications.
+            It's used for handling the view layer for web and mobile apps. React
+            also allows us to create reusable UI components.
+          </p>
+          <img
+            src="img/react.svg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-warning">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Advance End -->
+
+    <!-- Accordion Start -->
+    <h1 class="text-center my-5" id="faq">Frequently Asked Questions</h1>
+    <div class="accordion accordion-flush m-5" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Where are you exactly located?
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to
+            demonstrate the <code>.accordion-flush</code> class. This is the
+            first item's accordion body.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo"
+            aria-expanded="false"
+            aria-controls="flush-collapseTwo"
+          >
+            How do I sign up?
+          </button>
+        </h2>
+        <div
+          id="flush-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to
+            demonstrate the <code>.accordion-flush</code> class. This is the
+            second item's accordion body. Let's imagine this being filled with
+            some actual content.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree"
+            aria-expanded="false"
+            aria-controls="flush-collapseThree"
+          >
+            Your Lead at Mentors Academy?
+          </button>
+        </h2>
+        <div
+          id="flush-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to
+            demonstrate the <code>.accordion-flush</code> class. This is the
+            third item's accordion body. Nothing more exciting happening here in
+            terms of content, but just filling up the space to make it look, at
+            least at first glance, a bit more representative of how this would
+            look in a real-world application.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Accordion End -->
+
+    <!-- Instructors Start -->
+    <div class="bg-primary my-5">
+      <h1 class="text-center text-white" id="instructors">Our Instructors</h1>
+      <p class="text-center text-white">
+        Our instructors all have 5+ years working as a web developer in the
+        industry
+      </p>
+
+      <div class="row pb-5 mb-4 mx-5">
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <!-- Card-->
+          <div class="card rounded shadow-sm border-0">
+            <div class="card-body p-0">
+              <div class="bg-danger px-5 py-4 text-center card-img-top">
+                <img
+                  src="https://avatars.githubusercontent.com/u/5550850?v=4"
+                  alt="..."
+                  width="100"
+                  class="rounded-circle mb-2 img-thumbnail d-block mx-auto"
+                />
+                <h5 class="text-white mb-0">Brad Traversy</h5>
+                <p class="small text-white mb-0">Ranked # 2</p>
+              </div>
+              <div class="p-4 d-flex justify-content-center">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item">
+                    <h5 class="font-weight-bold mb-0 d-block">241</h5>
+                    <small class="text-muted"
+                      ><i class="fa fa-picture-o mr-1 text-primary"></i
+                      >Courses</small
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <h5 class="font-weight-bold mb-0 d-block">84K</h5>
+                    <small class="text-muted"
+                      ><i class="fa fa-user-circle-o mr-1 text-primary"></i
+                      >Students</small
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <!-- Card-->
+          <div class="card rounded shadow-sm border-0">
+            <div class="card-body p-0">
+              <div class="bg-warning px-5 py-4 text-center card-img-top">
+                <img
+                  src="https://pbs.twimg.com/profile_images/981311875643195393/dS0t6BQ8_400x400.jpg"
+                  alt="..."
+                  width="100"
+                  class="rounded-circle mb-2 img-thumbnail d-block mx-auto"
+                />
+                <h5 class="text-white mb-0">Mosh Hamedani</h5>
+                <p class="small text-white mb-0">Elite Instructor Ranked #1</p>
+              </div>
+              <div class="p-4 d-flex justify-content-center">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item">
+                    <h5 class="font-weight-bold mb-0 d-block">300</h5>
+                    <small class="text-muted"
+                      ><i class="fa fa-picture-o mr-1 text-success"></i
+                      >Courses</small
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <h5 class="font-weight-bold mb-0 d-block">84K</h5>
+                    <small class="text-muted"
+                      ><i class="fa fa-user-circle-o mr-1 text-success"></i
+                      >Students</small
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <!-- Card-->
+          <div class="card rounded shadow-sm border-0">
+            <div class="card-body p-0">
+              <div class="bg-success px-5 py-4 text-center card-img-top">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="..."
+                  width="100"
+                  class="rounded-circle mb-2 img-thumbnail d-block mx-auto"
+                />
+                <h5 class="text-white mb-0">Free Code Camp</h5>
+                <p class="small text-white mb-0">Elite Instructors</p>
+              </div>
+              <div class="p-4 d-flex justify-content-center">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item">
+                    <h5 class="font-weight-bold mb-0 d-block">241</h5>
+                    <small class="text-muted"
+                      ><i class="fa fa-picture-o mr-1 text-info"></i
+                      >Photos</small
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <h5 class="font-weight-bold mb-0 d-block">84K</h5>
+                    <small class="text-muted"
+                      ><i class="fa fa-user-circle-o mr-1 text-info"></i
+                      >Followers</small
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <!-- Card-->
+          <div class="card rounded shadow-sm border-0">
+            <div class="card-body p-0">
+              <div class="bg-dark px-5 py-4 text-center card-img-top">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLR2TkYUWF_sBcjq9Wpw_AMWB5R9AR8W1JGSik8a=s900-c-k-c0x00ffffff-no-rj"
+                  alt="..."
+                  width="100"
+                  class="rounded-circle mb-2 img-thumbnail d-block mx-auto"
+                />
+                <h5 class="text-white mb-0">Saurabh Shukla</h5>
+                <p class="small text-white mb-0">All Indian Youtubers</p>
+              </div>
+              <div class="p-4 d-flex justify-content-center">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item">
+                    <h5 class="font-weight-bold mb-0 d-block">241</h5>
+                    <small class="text-muted"
+                      ><i class="fa fa-picture-o mr-1 text-warning"></i
+                      >Photos</small
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <h5 class="font-weight-bold mb-0 d-block">84K</h5>
+                    <small class="text-muted"
+                      ><i class="fa fa-user-circle-o mr-1 text-warning"></i
+                      >Followers</small
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Instructors End-->
+
+    <!-- Map Start -->
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <h2 class="text-warning mb-5">Reach out to Us In-Person or Virtual!</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.5633723882215!2d73.23923901528885!3d34.15751118057738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38de31b4b6162091%3A0x1f500585c10b2f77!2sRAJPUT%20COLONY!5e0!3m2!1sen!2s!4v1632543830327!5m2!1sen!2s"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen="true"
+        loading="lazy"
+      ></iframe>
+    </div>
+    <!-- Map End -->
+
+    <!-- Footer Start -->
+
+    <div class="container">
+      <footer
+        class="
+          d-flex
+          flex-wrap
+          justify-content-between
+          align-items-center
+          py-3
+          my-4
+          border-top
+        "
+      >
+        <p class="col-md-4 mb-0 text-muted">&copy; 2021 Mentors Academy, Inc</p>
+
+        <a
+          href="/"
+          class="
+            col-md-4
+            d-flex
+            align-items-center
+            justify-content-center
+            mb-3 mb-md-0
+            me-md-auto
+            link-dark
+            text-decoration-none
+          "
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">About</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Modal Start -->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enroll"
+      aria-hidden="true"
+    >
+      <div
+        class="modal modal-alert position-static d-block bg-secondary py-5"
+        tabindex="-1"
+        role="dialog"
+        id="enroll"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-body p-4 text-center">
+              <h5 class="mb-0">Enable this setting?</h5>
+              <p class="mb-0">
+                You can always change your mind in your account settings.
+              </p>
+            </div>
+            <div class="modal-footer flex-nowrap p-0">
+              <button
+                type="button"
+                class="
+                  btn btn-lg btn-link
+                  fs-6
+                  text-decoration-none
+                  col-6
+                  m-0
+                  rounded-0
+                  border-right
+                "
+              >
+                <strong>Yes, enable</strong>
+              </button>
+              <button
+                type="button"
+                class="
+                  btn btn-lg btn-link
+                  fs-6
+                  text-decoration-none
+                  col-6
+                  m-0
+                  rounded-0
+                "
+                data-bs-dismiss="enroll"
+              >
+                No thanks
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
